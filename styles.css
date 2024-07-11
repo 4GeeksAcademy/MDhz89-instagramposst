@@ -7,8 +7,26 @@ body{
     height: 25px;
     padding: 8px;
     background-color: white;
-    
 }
+
+.post-icons{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.post-icons p {
+    margin: 0 10px;
+    margin-right: auto;
+    border: 1px;
+}
+
+
+
+.post-icons i:nth-child(2){
+  order: -1;
+}
+
+
 .post{
     min-height: 100vh;
     display:grid;
@@ -30,14 +48,24 @@ img{
     width: 333px;
 }
 .icons{
-    min-height: 5vh;
+    min-height: 3vh;
     place-content: center;
     background-color: white;
+    padding-top: 3px;
 }
 .post-body{
     width: 334px;
     min-height: 30vh;
     border-bottom: 1px solid;
     background-color: white;
+}
+.icons {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.icons i:last-child{
+    margin-left: auto;
+    padding-right: 5px;
 }
    
