@@ -1,0 +1,43 @@
+body{
+    background-color:grey;
+}
+.post-head{
+    border: 1px solid;
+    width: 316px;
+    height: 25px;
+    padding: 8px;
+    background-color: white;
+    
+}
+.post{
+    min-height: 100vh;
+    display:grid;
+    place-content: center;
+    border: 1px solid black
+
+}
+
+
+.post-image{
+    min-height: 30vh;
+    display:grid;
+    place-content: center;
+    border: 1px solid;
+    background-color: white;
+   
+}
+img{
+    width: 333px;
+}
+.icons{
+    min-height: 5vh;
+    place-content: center;
+    background-color: white;
+}
+.post-body{
+    width: 334px;
+    min-height: 30vh;
+    border-bottom: 1px solid;
+    background-color: white;
+}
+   
